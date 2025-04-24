@@ -1,7 +1,7 @@
-# HeartDiseasePrediction
+# Heart Disease Prediction
 This project was developed as part of the IS7935 course and focuses on applying machine learning classification techniques to predict the presence of heart disease using a labeled dataset. The dataset, sourced from Kaggle, contains a variety of medical features (e.g., age, cholesterol levels, chest pain type, resting blood pressure) and a binary target indicating whether a patient has heart disease.
 
-Objective
+# Objective
 The primary goal is to build and evaluate multiple classification models to determine which performs best in predicting heart disease. The following models were implemented and tested:
 
 Logistic Regression
@@ -12,7 +12,7 @@ Random Forest
 
 Majority Baseline Classifier (used as a performance benchmark)
 
-Methodology
+# Methodology
 Using Python and Scikit-learn, the dataset was split into training and testing sets, and each model was trained on the training set and evaluated on the test set. Performance metrics used for evaluation included:
 
 Accuracy – the overall correctness of predictions.
@@ -25,7 +25,7 @@ F1 Score – the harmonic mean of precision and recall, balancing both metrics.
 
 Each model was implemented with default parameters, and results were compared against the majority baseline classifier, which always predicts the most frequent class.
 
-Key Takeaways and Analysis
+# Key Takeaways and Analysis
 This task is a binary classification problem, as the target variable contains two mutually exclusive outcomes: presence or absence of heart disease.
 
 Compared to the majority baseline, all machine learning models performed significantly better, especially in recall and F1 score.
